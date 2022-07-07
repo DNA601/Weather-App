@@ -95,7 +95,7 @@ function renderForecast(daily) {
         const forecastCard = document.createElement('div')
         forecastCard.innerHTML = `
             <h3>${new Date(daily[i].dt * 1000)}</h3>
-            <p>Temperature: ${daily[i].temp.day}</p>
+            <p>Temperature: ${daily[i].temp.day}°F</p>
         `
             //inner html work shortcut
         forecastSection.appendChild(forecastCard)
