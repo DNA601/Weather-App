@@ -7,6 +7,7 @@ Then the user will see the display of the current weather as well as the weekly
 Temperature.
 Another feature of this app is the search history once the user starts to look at different cities.
 # Deployed link
+https://dna601.github.io/Weather-App/
 
 # Tools
 Javascript
