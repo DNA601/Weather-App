@@ -24,7 +24,7 @@ searchBtn.addEventListener('click', function() {
     console.log(cityName)
         //Search button works when clicked
 
-    var url2 = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + apikey
+    var url2 = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + apikey
     fetch(url2)
         .then(function(res) {
             return res.json()
